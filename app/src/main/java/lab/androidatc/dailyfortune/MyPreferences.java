@@ -15,6 +15,7 @@ public class MyPreferences {
     SharedPreferences.Editor editor;
     Context _context;
     int PRIVATE_MODE = 0;
+
     private static final String PREF_NAME = "DailyFortune";
     private static final String IS_FIRSTTIME = "IsFirstTime";
     public static final String UserName = "name";
